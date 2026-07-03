@@ -1,0 +1,17 @@
+# OS / editor
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Temp / autosave / stray files
+.~*
+Untitled*.ipynb
+
+# Redundant export (Excel copy of the segmented CSV, only used for the Power BI upload)
+data/marketing_segmented.xlsx
+
+# Secrets
+.env
